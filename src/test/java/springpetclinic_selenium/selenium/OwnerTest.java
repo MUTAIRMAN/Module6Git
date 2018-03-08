@@ -22,7 +22,9 @@ import junit.framework.TestSuite;
 public class OwnerTest 
     extends TestCase
 {
-    private HtmlUnitDriver driver = new HtmlUnitDriver();
+    private WebDriver driver = new ChromeDriver();
+   System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
+		
     private Configure config = new Configure();
     
     /**
